@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link href="style.css" rel="stylesheet">
+<script src="m_script.js"></script>
+<link href="login.html">
+<link href="index.html">
+</head>
+<body>
+    <a href="Homepage.html">
+        <h1 style="color: black;">Quizera</h1>
+        </a>
+        <img src="pics/mandm.jpg" alt="" width="1255px" height="300px">
+<h2>Welcome Let's Test your Knowledge!!!</h2>
+<form id="quiz" name="quiz">
+	<div class="one"></div>
+	<p>When was Netflix founded </p>
+	
+    <input type="radio" id="mc" name="m_question1" value="1997">1997<br>
+    <input type="radio" id="mc" name="m_question1" value="2001">2001<br>
+    <input type="radio" id="mc" name="m_question1" value="2009">2009<br>
+    <div class="one"></div>
+	<p>Disney’s first film was released in</p>
+
+    <input type="radio" id="mc" name="m_question2" value="1940">1940<br>
+    <input type="radio" id="mc" name="m_question2" value="1937">1937<br>
+    <input type="radio" id="mc" name="m_question2" value="1939">1939<br>
+
+
+    <div class="one"></div>
+    <p>Pixar’s first feature-length movie was released in </p>
+
+    <input type="radio" id="mc" name="m_question3" value="1995">1995<br>
+    <input type="radio" id="mc" name="m_question3" value="1996">1996<br>
+    <input type="radio" id="mc" name="m_question3" value="1997">1997<br>
+    <div class="one"></div>
+    <p>Michael Jackson died in </p>
+    <input type="radio" id="mc" name="m_question4" value="2007">2007<br>
+    <input type="radio" id="mc" name="m_question4" value="2008">2008<br>
+    <input type="radio" id="mc" name="m_question4" value="2009">2009<br>
+    <div class="one"></div>
+    <p>Who is the most grammy winning indivisual</p>
+    <input type="radio" id="mc" name="m_question5" value="solti">Sir Georg Solti<br>
+    <input type="radio" id="mc" name="m_question5" value="em">Eminem<br>
+    <input type="radio" id="mc" name="m_question5" value="Drake">Drake<br>
+    <div class="one"></div>
+    <p> How many suns does Luke’s home planet of Tatooine have in Star Wars</p>
+    <input type="radio" id="mc" name="m_question6" value="2">2<br>
+    <input type="radio" id="mc" name="m_question6" value="3">3<br>
+    <input type="radio" id="mc" name="m_question6" value="4">4<br>
+    <div class="one"></div>
+
+
+
+
+</br>
+    <input id="button" type="button" value="I'm finished!" onclick="m_check();">
+
+</form>
+
+<div id="after_submit">
+	<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+<button onclick="m_myFunction()">Refresh</button>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link href="style.css" rel="stylesheet">
+<script src="s_script.js"></script>
+<link href="login.html">
+<link href="index.html">
+</head>
+<body>
+    <a href="Homepage.html">
+        <h1 style="color: black;">Quizera</h1>
+        </a>
+        <div class="one">
+<img src="pics/sports.png" alt="" width="1255px" height="300px">
+<h2>Welcome Let's Test your Knowledge!!!</h2>
+<form id="quiz" name="quiz">
+</div>
+	<div class="one">
+	<p>Who won the fifa 2018 world cup. </p>
+	
+    <input type="radio" id="mc" name="s_question1" value="Brazil">Brazil<br>
+    <input type="radio" id="mc" name="s_question1" value="France">France<br>
+    <input type="radio" id="mc" name="s_question1" value="Spain">spain<br>
+    </div>
+    <div class="one">
+	<p>Where were the olympics game held in 2021 </p>
+
+    <input type="radio" id="mc" name="s_question2" value="Tokyo">Tokyo<br>
+    <input type="radio" id="mc" name="s_question2" value="Atalanta">Atalanta<br>
+    <input type="radio" id="mc" name="s_question2" value="Paris">Paris<br>
+</div>
+
+
+<div class="one">
+    <p>Name the country which won most gold medals at olympics 2021 </p>
+
+    <input type="radio" id="mc" name="s_question3" value="Japan">Japan<br>
+    <input type="radio" id="mc" name="s_question3" value="China">China<br>
+    <input type="radio" id="mc" name="s_question3" value="USA">USA<br>
+</div>
+<div class="one">
+    <p>Which football club has won the most UEFA Champions league</p>
+    <input type="radio" id="mc" name="s_question4" value="Madrid">Real Madrid<br>
+    <input type="radio" id="mc" name="s_question4" value="Milan">AC Milan<br>
+    <input type="radio" id="mc" name="s_question4" value="Barcelona">Fc Barcelona<br>
+</div>
+<div class="one">
+    <p>Who won the UEFA Champions League in 2021</p>
+    <input type="radio" id="mc" name="s_question5" value="Liverpool">Liverpool<br>
+    <input type="radio" id="mc" name="s_question5" value="R_Madrid">Real Madrid<br>
+    <input type="radio" id="mc" name="s_question5" value="Chelsea">Chelsea<br>
+</div>
+<div class="one">
+    <p>Where were the first modern olympics games held. </p>
+    <input type="radio" id="mc" name="s_question6" value="Athens">Athens<br>
+    <input type="radio" id="mc" name="s_question6" value="London">London<br>
+    <input type="radio" id="mc" name="s_question6" value="Moscow">Moscow<br>
+</div>
+</br>
+    <input id="button" type="button" value="I'm finished!" onclick="s_check();">
+
+</form>
+
+<div id="after_submit">
+	<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+<button onclick="s_myFunction()">Refresh</button>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+after_submit {
+	visibility: hidden;
+}
+p{
+	color: indigo;
+	text-decoration-thickness: 200;
+}
+#mc{
+	color:blue;
+}
+body{
+	background-color:beige ;
+} 
+div.one{
+	border-bottom: 2px ridge white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link href="style.css" rel="stylesheet">
+
+<script src="p_script.js"></script>
+<link href="login.html">
+<link href="index.html">
+</head>
+<body >
+    <a href="Homepage.html">
+<h1 style="color: black;">Quizera</h1>
+</a>
+<img src="pics/politics.jpg" alt=""width="1255px" height="300px"">
+<h2>Welcome Let's Test your Knowledge!!!</h2>
+<form id="quiz" name="quiz">
+
+<div class="one"></div>
+	<p>According to Indian constitution, Right to life is </p>
+	
+    <input type="radio" id="mc" name="p_question1" value="fund">Fundamental Right<br>
+    <input type="radio" id="mc" name="p_question1" value="econ">Economical Right<br>
+    <input type="radio" id="mc" name="p_question1" value="rel">Religious Right<br>
+    <div class="one"></div>
+	<p>Article 19 of the Indian Constitution provides</p>
+
+    <input type="radio" id="mc" name="p_question2" value="6">6 Rights<br>
+    <input type="radio" id="mc" name="p_question2" value="7">7 Rights<br>
+    <input type="radio" id="mc" name="p_question2" value="8">8 Rights<br>
+
+
+    <div class="one"></div>
+    <p>The Supreme Court of India was set up </p>
+
+    <input type="radio" id="mc" name="p_question3" value="presi">By a Presidential Order<br>
+    <input type="radio" id="mc" name="p_question3" value="consti">constitution<br>
+    <input type="radio" id="mc" name="p_question3" value="law">By the law of parliament<br>
+    <div class="one"></div>
+    <p>Which amendment act raised the age of retirement for judges of High Court to 62 from 60</p>
+    <input type="radio" id="mc" name="p_question4" value="15">15th<br>
+    <input type="radio" id="mc" name="p_question4" value="12">12th<br>
+    <input type="radio" id="mc" name="p_question4" value="10">10th<br>
+    <div class="one"></div>
+    <p>In which country political theory of 'Fascism' started</p>
+    <input type="radio" id="mc" name="p_question5" value="Us">USA<br>
+    <input type="radio" id="mc" name="p_question5" value="jap">Japan<br>
+    <input type="radio" id="mc" name="p_question5" value="rus">Russia<br>
+    <div class="one"></div>
+    <p>Which of the following is necessary for the development of Democratic Institutions</p>
+    <input type="radio" id="mc" name="p_question6" value="army">Armed Forces<br>
+    <input type="radio" id="mc" name="p_question6" value="respect">Respect to indivisual Rights<br>
+    <input type="radio" id="mc" name="p_question6" value="single">Single-Party system<br>
+    <div class="one"></div>
+
+
+
+
+</br>
+    <input id="button" type="button" value="I'm finished!" onclick="p_check();">
+
+</form>
+
+<div id="after_submit">
+	<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+<button onclick="p_myFunction()">Refresh</button>
+
+
+</body>
+</html>
